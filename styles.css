@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0px;
+
+}
+
+.hero{
+    margin: auto;
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image{
+    object-fit: cover;
+    object-position: middle right;
+    width: 100%;
+    height: 500px;
+    opacity: 0.8;
+}
+
+.details{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.details>h1{
+    font-size: 40px;
+    font-weight: 900 !important;
+}
+
+.details>p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500 !important;
+}
+
+.details>button{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    margin: 20px;
+}
